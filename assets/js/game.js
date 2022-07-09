@@ -6,7 +6,7 @@ const scoreText = document.querySelector('#score')
 let currentQuestion = {}
 let Answers = true
 let score = 0
-let availableQuestion = []
+let availableQuestions = []
 
 let questions = [
     {
@@ -26,6 +26,15 @@ startGame = () => {
     questionConter = 0
     score = 0
     availableQuestions = [...questions] 
-    getNewQuestions{}
+    getNewQuestions()
 }
 
+getNewQuestions = () => {
+    if(availableQuestions.lenght === 0 || questionsCounter > Max_Questions) {
+        localStorage.setItem('newestScore', score)
+
+        return window.location.assign('/end.html')
+    }
+
+
+}
