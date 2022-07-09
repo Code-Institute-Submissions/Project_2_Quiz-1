@@ -1,0 +1,12 @@
+body    {
+    color: white;
+}
+
+.choice-container   {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 4px;
+    background: blue;
+    min-width: 80rem;
+}
+
