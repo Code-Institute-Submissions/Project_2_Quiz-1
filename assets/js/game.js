@@ -36,5 +36,18 @@ getNewQuestions = () => {
         return window.location.assign('/end.html')
     }
 
+const questionsIndex = MAth.floor(Math.random() * availableQuestions.lenght)
+currentQuestion = availableQuestions[questionsIndex]
+question.innerText = currentQuestion.question
 
+choices.forEach(choice => {
+    const number = choice.dataset ['number']
+    choice.innerText = currentQuestion['choice' + number]
+})
+
+availableQuestions.splice(questionsIndex, 1)
+
+acceptionAnswers = true
 }
+
+
