@@ -2,7 +2,7 @@
 const username = document.querySelector('#username')
 const saveScoreBtn = document.querySelector('#saveScoreBtn')
 const finalScore = document.querySelector('#finalScore')
-const newestScore = document.querySelector('newestScore')
+const newestScore = localStorage.getItem('newestScore')
 
 
 const highscores = JSON.parse(localStorage.getItem('highscores')) || []
