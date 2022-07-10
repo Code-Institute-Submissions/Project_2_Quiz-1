@@ -1,6 +1,9 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
 body    {
     color: white;
+    font-family: 'Kalam', cursive;
 }
 
 #highScoresList {
