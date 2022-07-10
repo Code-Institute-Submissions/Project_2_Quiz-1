@@ -11,10 +11,10 @@ let availableQuestions = []
 let questions = [
     {
         question:'Which five colours make up the Olympic rings?',
-        option1: 'blue,yellow,black,green,red',
-        option2: 'red,orange,pink,white,purple',
-        option3: 'red,red,red,red,red',
-        option4: 'black,green,orange,purple,grey',
+        option1: 'Blue, Yellow, Black, Green, Red',
+        option2: 'Red, Orange, Pink, White, Purple',
+        option3: 'Red, Red, Red, Red, Red',
+        option4: 'Black, Green, Orange, Purple, Grey',
 
         answer: 1,
     },
