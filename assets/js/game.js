@@ -10,13 +10,13 @@ let availableQuestions = []
 
 let questions = [
     {
-        question:'Which five colours make up the Olympic rings?',
-        option1: 'Blue, Yellow, Black, Green, Red',
-        option2: 'Red, Orange, Pink, White, Purple',
-        option3: 'Red, Red, Red, Red, Red',
-        option4: 'Black, Green, Orange, Purple, Grey',
+        question:'How many Continents participate in the Olympic games?',
+        option1: '3',
+        option2: '5',
+        option3: '6',
+        option4: '4',
 
-        answer: 1,
+        answer: 2,
     },
     {
         question:'Who painted the Mona Lisa?',
