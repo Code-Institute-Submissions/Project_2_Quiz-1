@@ -120,3 +120,21 @@ input::placeholder{
     border: none;
 }
 
+@media screen and (max-width: 1200px) {
+    .choice-container {
+        margin: 0 auto;
+    } 
+}
+
+@media screen and (max-width: 950px) {
+    .choice-container {
+        margin: 0 auto;
+    } 
+}
+
+@media screen and (max-width: 800px) {
+    .choice-container {
+            margin: 0 auto;
+        } 
+    }
+}
