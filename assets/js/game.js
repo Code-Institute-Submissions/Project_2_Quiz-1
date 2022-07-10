@@ -116,7 +116,7 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > Max_Questions) {
         localStorage.setItem('newestScore', score)
 
-        return window.location.assign('index.html')
+        return window.location.assign('endScreen.html')
     }
 
 const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
