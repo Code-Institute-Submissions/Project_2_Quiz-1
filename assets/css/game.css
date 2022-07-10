@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
 body    {
     color: white;
-    font-family: 'Kalam', cursive;
 }
 
 .choice-container   {
@@ -18,20 +16,23 @@ body    {
 .choice-container:hover {
     cursor: pointer;
     transform: scale(1.02);
-    transition: transform 100ms;
+    transform: transform 100ms;
     
 }
 
 .choice-pre {
+    text-align: center;
     padding: 2rem 2.5rem;
     color: white;
     font-size: 2rem;
 }
 
 .choice-txt {
+    text-align: center;
     padding: 2rem;
     width: 100%;
 }
+
 
  /* Color for correct answers */
 
@@ -60,19 +61,21 @@ body    {
 }
 
 .choice-txt {
+    text-align: center;
     font-size: 2rem;  
 }
 
-
-
-@media screen and (max-width: 900px) {
-    .choice-container {
-        min-width: 40rem;
-    }
+#question {
+    text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     .choice-container {
-        min-width: 40rem;
+        min-width: 50%;
+        
+    }
+    .hud-item{
+        text-align: center;
+        font-size: 1rem;
     }
 }
