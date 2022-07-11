@@ -37,7 +37,9 @@ This Quiz will test your knowuladge regarding different subjects and topics rang
  -Validator Testing
   - HTML: No errors were found when put through W3C Validator.
   - CSS: No errors were found when put through W3C Validator.
+  - JavaScript: No major issues found through jshint
   - Perfect Score given by lighthouse in the dev tools.
+  
   
    ![](assets/images/performance.PNG)
    
