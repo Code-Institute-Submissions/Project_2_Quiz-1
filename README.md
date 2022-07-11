@@ -6,5 +6,4 @@ This Quiz will test your knowuladge regarding different subjects and topics rang
 
   -Navigation
     - Navegation Buttons in the mnu that will let you start the game and view you scores.
-    
     ![](assets/images/homepage.PNG)
