@@ -42,15 +42,15 @@ This Quiz will test your knowuladge regarding different subjects and topics rang
    ![](assets/images/performance.PNG)
    
  -Bugs
-  -Fixed issue where counter would not count the points. To fix it I changes the function in game.js
-  - Fixed issue where text would be cropped or not display correctly on mobile or smaller screens. To fixed it I renamed the classes and gave them the proper parameters
+   -Fixed issue where counter would not count the points. To fix it I changes the function in game.js
+   - Fixed issue where text would be cropped or not display correctly on mobile or smaller screens. To fixed it I renamed    the classes and gave them the proper parameters
   
  -Unfixed bugs
-  -The endScreen doesn't align properly with smaller devices
+   -The endScreen doesn't align properly with smaller devices
   
 ## Deployment
- -The site was deployed to GitHub pages
+  -The site was deployed to GitHub pages
  
 ## Credit
- -W3Schools for javascript
- -Stackpverflow for bug fixes
+  -W3Schools for javascript
+  -Stackpverflow for bug fixes
