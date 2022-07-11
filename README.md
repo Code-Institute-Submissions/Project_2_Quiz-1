@@ -10,20 +10,20 @@ This Quiz will test your knowuladge regarding different subjects and topics rang
    ![](assets/images/homepage.PNG)
   
   
-  -Visual feedback when you get your answers right(green) and wrong(red).
+  - Visual feedback when you get your answers right(green) and wrong(red).
   
    ![](assets/images/correct.PNG)
    ![](assets/images/incorrect.PNG)
    
-   -Point system, when you get and answer correctly you get 100 points up to 1000
+   - Point system, when you get and answer correctly you get 100 points up to 1000
    
    ![](assets/images/correct.PNG)
    
-  -Ability to input your name at the end of the game to save your score
+  - Ability to input your name at the end of the game to save your score
   
   ![](assets/images/endScreen.PNG)
   
-  -Ability to have 5 of the highest scores saved
+  - Ability to have 5 of the highest scores saved
   
   ![](assets/images/scores.PNG)
   
@@ -42,15 +42,15 @@ This Quiz will test your knowuladge regarding different subjects and topics rang
    ![](assets/images/performance.PNG)
    
  -Bugs
-   -Fixed issue where counter would not count the points. To fix it I changes the function in game.js
+   - Fixed issue where counter would not count the points. To fix it I changes the function in game.js
    - Fixed issue where text would be cropped or not display correctly on mobile or smaller screens. To fixed it I renamed    the classes and gave them the proper parameters
   
  -Unfixed bugs
-   -The endScreen doesn't align properly with smaller devices
+   - The endScreen doesn't align properly with smaller devices
   
 ## Deployment
-  -The site was deployed to GitHub pages
+  - The site was deployed to GitHub pages
  
 ## Credit
-  -W3Schools for javascript
-  -Stackpverflow for bug fixes
+  - W3Schools for javascript
+  - Stackpverflow for bug fixes
